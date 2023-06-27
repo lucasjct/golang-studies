@@ -1,0 +1,133 @@
+-> Qual o menor elemento em um programa que expressa uma ação a ser executada?
+    ☐ Uma declaração(statement) 
+    ☐ Uma expressão 
+
+-> A combinação de um mais valores, constantes, variáveis, operadores e funções que a linguagem interpreta e usa para produzir outro valor é:
+    ☐ Uma declaração(statement) 
+    ☐ Uma expressão 
+
+-> Quais são parênteses?
+    ☐ () 
+    ☐ [] 
+    ☐ {} 
+
+-> Quais são colchetes?
+    ☐ () 
+    ☐ [] 
+    ☐ {} 
+
+-> Quais são chaves?
+    ☐ () 
+    ☐ [] 
+    ☐ {} 
+
+-> A abrangência de uma variável designa onde no codigo você pode acessar vc pode acessar esta variável, e atribuir ou ler valores dela.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Um tipo de dados primitivo é um tipo composto, criado a partir dos outros tipos básicos que ja vem de fábrica na linguagem.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O tipo int é um tipo de dados primitivo.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O tipo string é um tipo de dados composto.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Um tipo de dados composto permite que você crie estruturas formadas de outros tipos.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Quando declaramos uma variável com a palavra chave var e não atribuimos nenhum valor a esta variavel, o compilador designa para esta um valor padrao. Chamado de valor zero.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Palavras-chave servem a propósitos específicos, mas fora isso podem ser usadas livremente ao longo do programa.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Palavras-chave e palavras reservadas designam coisas diferentes.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Uma palavra-chave somente pode ser usada pra seu propósito específico e para declarar variáveis.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Em "2+2", os números 2 são os operadores.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O termo "package" é uma palavra chave.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O termo "variable" é uma palavra chave.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O "ponto de entrada" para todos os programas é a função main(), que deve ficar dentro do package main.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> O operador curto de declaração pode ser usado ao invés de var em todas as situações.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Quando vemos "fmt.Println()", isto está chamando a função Println() que pertence ao package "fmt".
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> "Identificador" é o nome atribuído a uma variavel, função ou constante.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Para utilizar uma função, variável ou constante de outro package utiliza-se o formato "package-ponto-identificador" (package.Identificador). Por exemplo fmt.Println().
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Qual o caractere que permite "jogar fora" um valor? 
+    ☐ # 
+    ☐ @ 
+    ☐ _ 
+    ☐ $ 
+    ☐ Isso é pegadinha... 
+
+-> Em Go, não é permitido haver variáveis que não sejam utilizadas.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Uma função cujo parametro é "interface{}" é uma função variádica. Isso significa que voce pode passa à função um número pré-determinado de valores.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Todo valor em Go pertence também ao tipo interface vazia, representado pela notação "interface{}".
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> "2+3" é uma declaração/statement, não uma expressão.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> "2+3" é uma expressão, não uma declaração/statement.
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Se eu quiser salvar o resultado de um format printing em uma váriavel, posso usar  a função fmt.Sprintf().
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Em Go podemos criar nossos próprios tipos
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Falando de tipos, em Go utilizamos o termo "coerção", diferentemente de Java, por exemplo, onde utiliza-se "conversão".
+    ☐ Verdade 
+    ☐ Mentira 
+
+-> Todo tipo criado pelo programador possui um tipo subjacente.
+    ☐ Verdade 
+    ☐ Mentira
