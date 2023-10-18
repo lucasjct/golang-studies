@@ -1,0 +1,23 @@
+name: Slack Notifications
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify Slack
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: |
+          if [ "${{ github.event_name }}" == "issues" ]; then
+            message="New Issue: ${{ github.event.issue.title }} opened by ${{ github.event.issue.user.login }}"
+          else
+            message="New Pull Request: ${{ github.event.pull_request.title }} opened by ${{ github.event.pull_request.user.login }}"
+          fi
+          curl -X POST --data-urlencode "payload={\"text\": \"$message\"}" $SLACK_WEBHOOK
