@@ -16,7 +16,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
           if [ "${{ github.event_name }}" == "issues" ]; then
-            message="New Issue: ${{ github.event.issue.title }} in ${{github.event.repository.name}} opened by ${{ github.event.issue.user.login }}"
+            message="New Issue: __${{ github.event.issue.title }}__ on repository ${{github.event.repository.name}} opened by ${{ github.event.issue.user.login }}"
           else
             message="New Pull Request: ${{ github.event.pull_request.title }} opened by ${{ github.event.pull_request.user.login }}"
           fi
